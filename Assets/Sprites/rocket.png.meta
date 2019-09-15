@@ -11,6 +11,15 @@ TextureImporter:
   - first:
       213: 3120792004629079067
     second: rocket_2
+  - first:
+      213: -2085652773857467906
+    second: rocket_3
+  - first:
+      213: 8004653710223326396
+    second: rocket_4
+  - first:
+      213: -6886866306104415085
+    second: rocket_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -140,7 +149,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f2a2c43728587b4e9078e8a7610364b
+      spriteID: 618e1aa9cc8884c488ea90eb51d167f8
       internalID: -9158349384845336690
       vertices: []
       indices: 
@@ -161,7 +170,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2cc7ac4e4dda534485af1235e90b8c8
+      spriteID: ea4b6133695c04e4389d4fb2f8ea2532
       internalID: 6720079725827622669
       vertices: []
       indices: 
@@ -182,8 +191,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93496f1f57d7cb747b8f3219a45ec3f6
+      spriteID: 3f65fecb24053294b9248d7bc4300e3e
       internalID: 3120792004629079067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 9
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961dbb913983946468a44eb5db4b3221
+      internalID: -2085652773857467906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 10
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb1ca3be2bc6f144a4517e8b36cc822
+      internalID: 8004653710223326396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rocket_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 10
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b5cef75a00a474684b49f4279b1699
+      internalID: -6886866306104415085
       vertices: []
       indices: 
       edges: []
