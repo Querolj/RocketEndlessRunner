@@ -425,6 +425,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2898923259991139032, guid: 2fabc7261a4a78f4a944f185c0e1279b,
+        type: 3}
+      propertyPath: _speed
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2898923259991139032, guid: 2fabc7261a4a78f4a944f185c0e1279b,
+        type: 3}
+      propertyPath: _inertia_coeff
+      value: 10.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fabc7261a4a78f4a944f185c0e1279b, type: 3}
 --- !u!1 &956176004

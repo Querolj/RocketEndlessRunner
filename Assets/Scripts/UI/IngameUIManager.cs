@@ -20,7 +20,14 @@ public class IngameUIManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (!RocketController.Instance.IsDead)
+        {
+            return;
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.R)
+        || (Input.touchCount > 0 && Input.GetTouch(0).tapCount > 1))
         {
             ReloadScene();
         }

@@ -30,7 +30,7 @@ public class RocketController : MonoBehaviour
     /// The nearest to 0 the value is, the weaker the inertia will be
     /// </summary>
     [SerializeField]
-    [Range(0.00001f, 0.2f)]
+    [Range(0.00001f, 100f)]
     private float _inertia_coeff;
 
     /// <summary>
@@ -139,7 +139,7 @@ public class RocketController : MonoBehaviour
             return false;
         }
 
-        _pivot.position += inertia_vector._initial_strength * inertia_vector._lifetime * _inertia_coeff;
+        _pivot.position += inertia_vector._initial_strength * inertia_vector._lifetime * _inertia_coeff * Time.deltaTime;
         return true;
     }
 
